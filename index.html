@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tag start -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS links -->
+     <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+   <title>BS5 practise</title>
+</head>
+<body>
+  <!-- Vertical alignment -->
+  <section class="alignment bg-success py-3">
+    <h4 class="text-center">Vertical Alignment</h4>
+    <div class="container">
+      <div class="row align-items-center box">
+        <div class="col style">
+          One of three columns
+        </div>
+        <div class="col style">
+          One of three columns
+        </div>
+        <div class="col style">
+          One of three columns
+        </div>
+      </div>
+    </div>
+    <div class="container my-3 bg-gradient">
+      <div class="row align-items-end box">
+        <div class="col style">
+          One of three columns
+        </div>
+        <div class="col style">
+          One of three columns
+        </div>
+        <div class="col style">
+          One of three columns
+        </div>
+      </div>
+    </div>
+    <div class="container text-center my-3">
+      <div class="row box">
+        <div class="col align-self-start style">
+          One of three columns
+        </div>
+        <div class="col align-self-center style">
+          One of three columns
+        </div>
+        <div class="col align-self-end style">
+          One of three columns
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Vertical alignment -->
+    <section class="alignment py-3">
+      <h4 class="text-center">Horizontal Alignment</h4>
+      <div class="container text-center">
+        <div class="row justify-content-start box">
+          <div class="col-4 style ">
+            One of two columns
+          </div>
+          <div class="col-4 style">
+            One of two columns
+          </div>
+        </div>
+        <div class="row justify-content-center box">
+          <div class="col-4 style">
+            One of two columns
+          </div>
+          <div class="col-4 style">
+            One of two columns
+          </div>
+        </div>
+        <div class="row justify-content-end box">
+          <div class="col-4 style">
+            One of two columns
+          </div>
+          <div class="col-4 style">
+            One of two columns
+          </div>
+        </div>
+        <div class="row justify-content-around box">
+          <div class="col-4 style">
+            One of two columns
+          </div>
+          <div class="col-4 style">
+            One of two columns
+          </div>
+        </div>
+        <div class="row justify-content-between box">
+          <div class="col-4 style">
+            One of two columns
+          </div>
+          <div class="col-4 style">
+            One of two columns
+          </div>
+        </div>
+        <div class="row justify-content-evenly box">
+          <div class="col-4 style">
+            One of two columns
+          </div>
+          <div class="col-4 style">
+            One of two columns
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form my-3 py-3 bg-info">
+      <h4 class="text-center pt-3">Forms</h4>
+      <div class="container">
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-6">
+              <label for="f_name" class="form-label">First name</label>
+              <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="Enter your first name" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Enter your first name
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="l_name" class="form-label">Last name</label>
+              <input type="text" class="form-control l_name" id="l_name" name="l_name" placeholder="Enter your last name" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Enter your last name
+              </div>
+            </div>
+            <div class="col-md-12">
+              <label for="email1" class="form-label">Email</label>
+              <input type="text" class="form-control email1" id="email1" name="email1" placeholder="Enter your email adress" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Enter your Email Adress
+              </div>
+            </div>
+            <div class="col-md-12">
+              <select class="form-select">
+                <option>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-md-12">
+
+            <div class="mb-3">
+              <label for="textarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control textarea1" id="textarea1" name="textarea1" rows="3"></textarea>
+            </div>
+          </div>
+            <div class="col-md-12">
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input check1" id="check1">
+              <label class="form-check-label check1" for="check1">Check me out</label>
+            </div>
+          </div>
+          
+        <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+          </form>
+      </div>
+    </section>
+
+ <!-- javascript links -->
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
